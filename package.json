@@ -1,0 +1,23 @@
+{
+  "name": "solidjs-plugin",
+  "version": "0.1.10",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petrican/solidjs-plugin"
+  },
+  "dependencies": {
+    "@nx/devkit": "16.9.1",
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "sass": "^1.62.1",
+    "vite": "4.4.7",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-solid": "^2.7.0",
+    "vite-tsconfig-paths": "4.2.0"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "typings": "./src/index.d.ts",
+  "generators": "./generators.json"
+}
